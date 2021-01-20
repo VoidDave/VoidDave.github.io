@@ -3,7 +3,7 @@ body
   background-color: #1a1a1a;
   font-family: Verdana;
   font-size: 20px;
-  color: white;
+  color: red;
 }
 h1
 {
@@ -13,16 +13,50 @@ h1
 /* Nieodwiedzony link */
 a:link
 {
-	color:#FF0064;
+	color: #FF0064;
 }
 /* Odwiedzony link */
 a:visited
 {
-	color:#FF0064;
+	color: #FF0064;
 }
 
 /* Najechany link */
 a:hover
 {
-	color:purple;
+	color: purple;
+}
+
+#all
+{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top
+{
+	text-align: center;
+}
+#nav
+{
+	background-color: #424949;
+	width: 300px;
+	min-height:600px;
+	float:left;
+	padding: 10px;
+}
+#general
+{
+	background-color: #283747;
+	width: 900px;
+	min-height:600px;
+	float:left;
+	padding: 10px;
+}
+#links
+{
+	width: 1500px;
+	min-height:200px;
+	clear:both;
+	text-align: center;
 }
