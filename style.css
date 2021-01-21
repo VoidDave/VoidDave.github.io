@@ -10,22 +10,6 @@ h1
 	color: gray;
 }
 
-/* Nieodwiedzony link */
-a:link
-{
-	color: #FF0064;
-}
-/* Odwiedzony link */
-a:visited
-{
-	color: #FF0064;
-}
-
-/* Najechany link */
-a:hover
-{
-	color: purple;
-}
 
 #all
 {
@@ -65,9 +49,28 @@ a:hover
 	padding: 10px;
 	border-right: 2px solid #444444;
 	opacity:0.8;
+	color:red;
 }
 .option:hover
 {
 	background-color:#444434;
 	cursor:pointer;
+	text-decoration:none;
+	color:red;
+}
+/* Nieodwiedzony link */
+.linki
+{
+	color: #FF0064;
+}
+/* Odwiedzony link */
+.linki:visited
+{
+	color: #FF0064;
+}
+
+/* Najechany link */
+.linki:hover
+{
+	color: purple;
 }
