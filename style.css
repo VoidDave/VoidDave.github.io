@@ -41,6 +41,7 @@ h1
 	min-height:200px;
 	text-align: center;
 }
+/* guziki */
 .option
 {
 	float: left;
@@ -53,7 +54,7 @@ h1
 }
 .option:hover
 {
-	background-color:#444434;
+	background-color:#393939;
 	cursor:pointer;
 	text-decoration:none;
 	color:red;
