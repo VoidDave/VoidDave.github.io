@@ -1,35 +1,76 @@
-<!DOCTYPE HTML>
-<html lang="pl">
-<head>
-	<meta charset="utf-8" />
-	<title>Test </title>
-	<meta name="description" content="Test2" />
-	<meta name="keywords" content="energetyk, gra, symulator chodzenia" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="author" content="Mateusz Tworek"/>
-	<link rel="stylesheet" href="style.css" type="text/css">
-</head>
-	
-<body>
-	<div id="all">
-		<div id="top">
-			<h1>Energetyk 3D</h1>
-		</div>
-		<div id="nav">
-			<div class="option">Więcej infomacji wkrótce </div> 
-			<div class="option">Więcej infomacji wkrótce </div> 
-			<div class="option">Więcej infomacji wkrótce </div> 
-			<div class="option">Więcej infomacji wkrótce </div> 
-			<div style= "clear:both;"></div>
-		</div>
-		<div id="general">
-			Więcej infomacji wkrótce 
-		</div>
-		<div id="links">
-			<a href="https://github.com/VoidDave/VoidDave.github.io" target="_blank" title="Projekt z możliwością pobrania (Obecnie brak opcji pobrania)">Github <br/><img width="100" hight="100" src="grafikistr/github.png"/></a> <br/> <br/>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="NIE RÓB TEGO MÓWIE">Nie dotykaj <br/></a>
-		</div>
-	</div>
-	
-</body>
-</html>
+body 
+{
+  background-color: #1a1a1a;
+  font-family: Verdana;
+  font-size: 20px;
+  color: red;
+}
+h1
+{
+	color: gray;
+}
+
+
+#all
+{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top
+{
+	text-align: center;
+}
+#nav
+{
+	background-color: #424949;
+	width: 1500px;
+	min-height:50px;
+	padding: 10px;
+}
+#general
+{
+	background-color: #283747;
+	width: 1500px;
+	min-height:600px;
+	padding: 10px;
+}
+#links
+{
+	width: 1500px;
+	min-height:200px;
+	text-align: center;
+}
+.option
+{
+	float: left;
+	min-width: 50px;
+	min-height: 25px;
+	padding: 10px;
+	border-right: 2px solid #444444;
+	opacity:0.8;
+	color:red;
+}
+.option:hover
+{
+	background-color:#444434;
+	cursor:pointer;
+	text-decoration:none;
+	color:red;
+}
+/* Nieodwiedzony link */
+.linki
+{
+	color: #FF0064;
+}
+/* Odwiedzony link */
+.linki:visited
+{
+	color: #FF0064;
+}
+
+/* Najechany link */
+.linki:hover
+{
+	color: purple;
+}
