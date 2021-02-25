@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: voiddave.github.io
+Token: be9a0b5a7829b6ef27e968d75e23d7a9429369b972780e5fc16991a39da94f95
